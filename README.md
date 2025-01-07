@@ -21,3 +21,9 @@
 - vedio system
 - security or cryptography
 
+## Development board
+- Xilinx based (acquired by AMD): I would recommend it. since I am gonna buy one.
+- Altera based (acquired by intel):
+
+
+  
