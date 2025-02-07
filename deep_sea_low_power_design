@@ -1,0 +1,6 @@
+Implemented a FSM <== inputs are gliders pitch angle(theta) from payload IMU.
+  FSM ==> derives/output to glider state(Dive, climb, surface)
+  when it will activate: state transition from dive to climb occurs.
+    Once potential occurance of a seafloor approach is detected by FSM, the laser and the camera can be applied as 
+      a range finder to validate the proximity to seafloor.
+      if proximity to the seafloor is confirm the full imaging sequence used the cmaera with high power lighting.
