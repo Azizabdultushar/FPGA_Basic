@@ -18,4 +18,19 @@ All on a single system on chip (SoC).  its PS block includes engines such as
 1. HW system developing usign the vivado tools along  with IP integrator those included specifying the zynq ultrascale+ PS, peripherals, interconnection of these components along with their respective detailed configuration.
 2. Vitis can be used for SW development, hardware accelerator and  platform development.
 ***The Zynq UltraScale+ PS can be booted and run without programming the PL. However, to use any soft IP in the fabric, or to bond out PS peripherals using EMIO, you must program the PL using the Vitis IDE or the Vivado hardware manager***
+                             ***Getting started***
+If you install the Vitis IDE, you will automatically get both the Vivado Design Suite and the Vitis IDE. You do not have to make any extra selections in the installer.
+So, the 1) Vitis IDE  2) Vivado Design Suite 3) petalinux
+
+
+
+what the BSP includes, A Petalinux BSP typically contains:
+1. Device tree files (DTB)
+2. U-Boot configuration
+3. Linux Kernel configuration
+4. FSBL (First stage Boot Loader)
+5. Pre-configured hardware platform (HDF/XSA)
+6. system configuration for the target board.
+   
+
 
